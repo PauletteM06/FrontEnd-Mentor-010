@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color: var(--Eggshell);
+}
+
+.main-container {
+    background-color: var(--White);
+    width: 735px;
+    height: 1600px;
+    margin: 110px auto;
+    border-radius: 15px;
+}
+
+.section {
+    width: 100%;
+    height: 1670px;
+    padding: 40px;
+}
+
+.image {
+    overflow: hidden;
+    background-image: url(./assets/images/image-omelette.jpeg);
+    background-size: cover;
+    width: 658px;
+    height: 290px;
+    border-radius: 15px;
+}
+
+/*.........SECTION1..........*/
+
+
+.title {
+    font-family: "Young Serif", serif;
+    font-weight: 400; 
+    margin: 20px auto;
+    color: var(--DarkCharcoal);
+}
+
+.description {
+    color: var(--WengeBrown);
+    margin:20px auto;
+    font-size: 16px;
+}
+
+.preparation {
+    width: 650px;
+    height: 170px;
+    margin: 25px auto 20px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--RoseWhite);
+}
+
+.title-preparation {
+    color: var(--DarkRaspberry);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.preparation-list {
+    color: var(--WengeBrown);
+    font-size: 16px;  
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li::marker {
+    color: var(--Nutmeg);
+    font-weight: 600;
+}
+
+.details {
+    color: var(--WengeBrown);
+    font-weight: 700;
+    margin-left: 10px;   
+}
+
+/*.............SECTION2..............*/
+
+.title-main {
+    color: var(--Nutmeg);
+}
+
+.ingredients-list {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: var(--WengeBrown);
+    font-size: 16px;
+}
+
+.line {
+    border-top: 1px solid var(--LightGrey);
+}
+
+/*..........SECTION3............*/
+
+.instructions-list {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/*.......SECTION4.......*/
+
+.nutrition-tabla .line {
+    margin-bottom: 10px;
+}
+
+.tabla {
+    color: var(--WengeBrown);
+    margin-left: 30px;
+    width: 360px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutri-color {
+    color: var(--Nutmeg);
+    width: 57px;
+}
+
+/*.........Footer..............*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
